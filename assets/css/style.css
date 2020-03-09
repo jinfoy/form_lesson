@@ -227,6 +227,9 @@
   color: #545658;
   font-size: 16px;
 }
+.course_option:last-child {
+  margin-bottom: 0;
+}
 .course_option_text {
   position: relative;
   padding-left: 25px;
@@ -273,11 +276,14 @@
 .submit-btn:hover {
   background-color: #01a6a4;
 }
-
 .submit-btn:active {
   background-color: #fff;
   color: #01a6a4;
   border: 1px solid #d9d9d9;
+}
+.link-color:hover {
+  color: #01bfbd;
+  cursor: pointer;
 }
 /* footer */
 .foot-part {
@@ -295,4 +301,7 @@
   box-sizing: border-box;
   border-bottom: 1px solid #ececec;
   border-bottom-color: #01bfbd;
+}
+.resend-mail {
+  margin-bottom: 0;
 }
